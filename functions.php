@@ -89,6 +89,43 @@ $normalTab->createOption( array(
     'default' => 'A default value',
 ) );
 $normalTab->createOption( array(
+    'name' => 'My Radio Palette Option',
+    'id' => 'my_palette_option',
+    'type' => 'radio-palette',
+    'desc' => 'Choose a style',
+    'options' => array(
+        array(
+            "#69D2E7",
+            "#A7DBD8",
+            "#E0E4CC",
+            "#F38630",
+            "#FA6900",
+        ),
+        array(
+            "#D9CEB2",
+            "#948C75",
+            "#D5DED9",
+            "#7A6A53",
+            "#99B2B7",
+        ),
+        array(
+            "#3FB8AF",
+            "#7FC7AF",
+            "#DAD8A7",
+            "#FF9E9D",
+            "#FF3D7F",
+        ),
+        array(
+            "#D1E751",
+            "#FFFFFF",
+            "#000000",
+            "#4DBCE9",
+            "#26ADE4",
+        )
+    ),
+    'default' => '1',
+) );
+$normalTab->createOption( array(
     'name' => 'My Checkbox Option',
     'id' => 'my_checkbox_option',
     'type' => 'checkbox',
@@ -149,6 +186,13 @@ $normalTab->createOption( array(
         ),
     ),
     'default' => '2',
+) );
+$normalTab->createOption( array(
+    'name' => 'My Editor Option',
+    'id' => 'my_editor_option',
+    'type' => 'editor',
+    'desc' => 'Enter some text',
+    'default' => 'Copyright &copy; ' . date('Y') . ' by your company, all rights reserved',
 ) );
 $normalTab->createOption( array(
     'type' => 'save',
