@@ -83,7 +83,7 @@ $normalTab = $adminPanel->createTab( array(
 ) );
 $normalTab->createOption( array(
     'name' => 'My Text Option',
-    'id' => 'my_text_option',
+    'id' => 'my_text_option1',
     'type' => 'text',
     'desc' => 'This is our option',
     'default' => 'A default value',
@@ -127,21 +127,21 @@ $normalTab->createOption( array(
 ) );
 $normalTab->createOption( array(
     'name' => 'My Checkbox Option',
-    'id' => 'my_checkbox_option',
+    'id' => 'my_checkbox_option1',
     'type' => 'checkbox',
     'desc' => 'This is our option',
     'default' => false,
 ) );
 $normalTab->createOption( array(
     'name' => 'My Color Picker Option',
-    'id' => 'background_color',
+    'id' => 'background_color1',
     'type' => 'color',
     'desc' => 'Pick a color',
     'default' => '#555555',
 ) );
 $normalTab->createOption( array(
     'name' => 'My Number Option',
-    'id' => 'my_number_option',
+    'id' => 'my_number_option1',
     'type' => 'number',
     'desc' => 'This is our option',
     'default' => '10',
@@ -149,7 +149,7 @@ $normalTab->createOption( array(
 ) );
 $normalTab->createOption( array(
     'name' => 'My Multicheck Option',
-    'id' => 'my_multicheck_option',
+    'id' => 'my_multicheck_option1',
     'type' => 'multicheck',
     'desc' => 'Check whichever applies',
     'options' => array(
@@ -315,19 +315,19 @@ $selectTab->createOption( array(
 ) );
 $selectTab->createOption( array(
     'name' => 'My Posts',
-    'id' => 'my_multicheck_option',
+    'id' => 'my_multicheck_option2',
     'type' => 'multicheck-posts',
     'desc' => 'Check a post',
 ) );
 $selectTab->createOption( array(
     'name' => 'My Pages',
-    'id' => 'my_multicheck_option',
+    'id' => 'my_multicheck_option3',
     'type' => 'multicheck-pages',
     'desc' => 'Check a page',
 ) );
 $selectTab->createOption( array(
     'name' => 'My Post Categories',
-    'id' => 'my_multicheck_option',
+    'id' => 'my_multicheck_option4',
     'type' => 'multicheck-categories',
     'desc' => 'Check a category',
 ) );
@@ -347,28 +347,28 @@ $postMetaBox = $titan->createMetaBox( array(
 ) );
 $postMetaBox->createOption( array(
     'name' => 'My Text Option',
-    'id' => 'my_text_option',
+    'id' => 'my_text_option2',
     'type' => 'text',
     'desc' => 'This is our option',
     'default' => 'A default value',
 ) );
 $postMetaBox->createOption( array(
     'name' => 'My Checkbox Option',
-    'id' => 'my_checkbox_option',
+    'id' => 'my_checkbox_option2',
     'type' => 'checkbox',
     'desc' => 'This is our option',
     'default' => false,
 ) );
 $postMetaBox->createOption( array(
     'name' => 'My Color Picker Option',
-    'id' => 'background_color',
+    'id' => 'background_color2',
     'type' => 'color',
     'desc' => 'Pick a color',
     'default' => '#555555',
 ) );
 $postMetaBox->createOption( array(
     'name' => 'My Number Option',
-    'id' => 'my_number_option',
+    'id' => 'my_number_option2',
     'type' => 'number',
     'desc' => 'This is our option',
     'default' => '10',
@@ -381,28 +381,28 @@ $pageMetaBox = $titan->createMetaBox( array(
 ) );
 $pageMetaBox->createOption( array(
     'name' => 'My Text Option',
-    'id' => 'my_text_option',
+    'id' => 'my_text_option3',
     'type' => 'text',
     'desc' => 'This is our option',
     'default' => 'A default value',
 ) );
 $pageMetaBox->createOption( array(
     'name' => 'My Checkbox Option',
-    'id' => 'my_checkbox_option',
+    'id' => 'my_checkbox_option3',
     'type' => 'checkbox',
     'desc' => 'This is our option',
     'default' => false,
 ) );
 $pageMetaBox->createOption( array(
     'name' => 'My Color Picker Option',
-    'id' => 'background_color',
+    'id' => 'background_color3',
     'type' => 'color',
     'desc' => 'Pick a color',
     'default' => '#555555',
 ) );
 $pageMetaBox->createOption( array(
     'name' => 'My Number Option',
-    'id' => 'my_number_option',
+    'id' => 'my_number_option3',
     'type' => 'number',
     'desc' => 'This is our option',
     'default' => '10',
